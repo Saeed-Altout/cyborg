@@ -1,0 +1,31 @@
+:root {
+    --color-dark: #27292a;
+    --color-darkes: #1f2122;
+    --color-light: #ffffff;
+    --color-primary: #ec6090;
+    --color-gray: #666;
+    --color-bg-body: var(--color-darkes);
+    --color-bg-dark: var(--color-dark);
+    --color-bg-darkest: var(--color-darkes);
+    --fw-bold: 900;
+    --fw-light: 400;
+    --distance-primary: 50px;
+    --padding-primary: var(--distance-primary);
+    --margin-primary: var(--distance-primary);
+    --border-radius-primary: calc(var(--distance-primary) / 2);
+    --font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: var(--color-bg-body);
+    font-family: var(--font-family);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
